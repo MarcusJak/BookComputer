@@ -2,6 +2,9 @@
 
 This repository contains the Xamarin application designed to facilitate Computer rental services for businesses. The application communicates with a server via API calls and provides a user-friendly interface for managing data rental operations. The included flowchart illustrates the logic flow of the app, which ensures a seamless user experience.
 
+## 
+[Related Bachelor Thesis](https://github.com/MarcusJak/BookComputer/blob/main/Anv%C3%A4ndning_av_Low_Code_f%C3%B6r_optimering_av_aff%C3%A4rsprocesser.pdf)
+
 ## Application Workflow
 
 - **User Authentication:** Users start by logging into the app. Authentication is verified with the server.
