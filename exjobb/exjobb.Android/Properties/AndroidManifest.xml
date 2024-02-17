@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.exjobb">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="24" />
-	<application android:label="exjobb.Android" android:theme="@style/MainTheme"></application>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<uses-permission android:name="android.permission.INTERNET" />
-	<meta-data android:name="com.microsoft.applicationinsights.instrumentationKey" android:value="cd4022a9-a14b-4886-9cfd-c77f234d1718" />
-</manifest>
