@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exjobb.MainPage"
+             >
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Logga in:" FontSize="Large" VerticalOptions="Center"></Label>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Användar ID: " VerticalOptions="Center"></Label>
+        <Entry x:Name="UserID" HorizontalOptions="StartAndExpand" WidthRequest="200"  Placeholder="Användar ID" PlaceholderColor="Gray"></Entry>
+                </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+
+         <Label Text="Lösenord:    " VerticalOptions="Center"></Label>
+        <Entry x:Name="Password" HorizontalOptions="Center" WidthRequest="200" Placeholder="Lösenord" IsPassword="True"></Entry>
+                </StackLayout>
+        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="logga in!" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
+

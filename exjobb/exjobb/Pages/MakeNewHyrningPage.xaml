@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="exjobb.MakeNewHyrningPage">
+    <ContentPage.Content>
+
+        
+         <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+             <Label Text="Skapa hyrning" FontSize="Large"></Label>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Start datum: " VerticalOptions="Center"></Label>
+            <DatePicker x:Name="startDatePicker" DateSelected="DatePicker_DateSelected" />
+                </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+
+         <Label Text="Slut datum: " VerticalOptions="Center"></Label>
+    <DatePicker x:Name="endDatePicker" DateSelected="DatePicker_DateSelected" />
+                </StackLayout>
+        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Hyr" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+
+
+
+
+
+
+
+
+        
+    </ContentPage.Content>
+</ContentPage>
+
